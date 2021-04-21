@@ -39,6 +39,17 @@ module.exports = {
 };
 ```
 
+## .browserslistrc 생성
+
+.browserslistrc 생성하고 아래와 같이 설정하면 webpack 에서 인식한 후 알아서 polyfill 로 메꿔준다.
+
+지원되는 브라우저 목록을 확인하려면 npx browserslist 를 하면 확인할 수 있다.
+
+```
+last 3 versions
+> 0.7%
+```
+
 ## build
 
 ```
